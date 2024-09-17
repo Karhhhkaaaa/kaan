@@ -1,0 +1,14 @@
+.product-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px
+}
+
+.product-list {
+    display: flex;
+    gap: 10px;
+}
+
+.product-item {
+    list-style: none;
+}

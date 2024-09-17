@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <title>Cool Shop - Крутой магазин</title>
+</head>
+<body>
+    {% include 'home/header.html' %}
+
+    <div class="hero wrapper">
+        <h1>Самый круто магазин - приходи покупай!</h1>
+    </div>
+</body>
+</html>

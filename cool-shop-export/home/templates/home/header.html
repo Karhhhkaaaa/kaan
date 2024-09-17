@@ -1,0 +1,10 @@
+<header class="header wrapper">
+    <div class="header-logo">CoolShop</div>
+    <nav class="header-nav">
+        <ul class="nav-list">
+            <li class="nav-item {% if request.path == '/' %} active {% endif %}"><a href="/">Главная</a></li>
+            <li class="nav-item {% if request.path == '/catalog' %} active {% endif %}"><a href="/catalog">Каталог</a></li>
+        </ul>
+    </nav>
+    <div class="header-login"><a href="/login">Войти</a></div>
+</header>
